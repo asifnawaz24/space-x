@@ -1,0 +1,76 @@
+.LaunchProfile {
+    font-family: 'Bebas Neue', cursive;
+    height: 100vh;
+    max-height: 100%;
+    width: calc(100vw - 250px);
+    background-color: #111111;
+    overflow: hidden auto;
+    padding: 0 30px;
+}
+
+/* width */
+.LaunchProfile::-webkit-scrollbar {
+    width: 5px;
+}
+
+.LaunchProfile::-webkit-scrollbar:hover {
+    width: 10px;
+}
+
+/* Track */
+.LaunchProfile::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+.LaunchProfile::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+.LaunchProfile::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.LaunchProfile__status {
+    font-size: 18px;
+    margin-top: 0px;
+    margin-bottom: 4px;
+}
+
+.LaunchProfile__title {
+    font-size: 32px;
+    margin-top: 40px;
+}
+
+.LaunchProfile__success {
+    color: #2cb84b;
+}
+
+.LaunchProfile__failed {
+    color: #ff695e;
+}
+
+.LaunchProfile__description {
+    margin: 0;
+    padding: 10px;
+    padding-left: 15px;
+    font-size: 22px;
+}
+
+.LaunchProfile__image-list {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    /* margin-top: 20px;
+    padding-top: 100px; */
+}
+
+.LaunchProfile__image {
+    width: 100%;
+    margin: auto;
+    /* padding: 5px 20px; */
+    padding-bottom: 20px;
+}

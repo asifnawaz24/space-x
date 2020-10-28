@@ -1,0 +1,54 @@
+.LaunchList {
+    font-family: 'VT323', monospace;
+    height: 100vh;
+    background-color: #111111;
+    width: 250px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.LaunchList__list-scroll {
+    height: 95vh;
+    overflow: hidden auto;
+    margin: 0;
+    padding: 0;
+}
+
+/* width */
+.LaunchList__list-scroll::-webkit-scrollbar {
+    width: 3px;
+}
+
+.LaunchList__list-scroll::-webkit-scrollbar:hover {
+    width: 10px;
+}
+
+/* Track */
+.LaunchList__list-scroll::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+.LaunchList__list-scroll::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+.LaunchList__list-scroll::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.LaunchList__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.LaunchList__item {
+    margin-top: 5px;
+    margin-right: 5px;
+    background-color: #222222;
+    padding: 10px 20px;
+    border: 1px solid #919191;
+    cursor: pointer;
+}
